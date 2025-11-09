@@ -32,6 +32,9 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 2px;
+    padding: 10px;
+    box-shadow: 2px;
 }
 
 aside {
@@ -44,7 +47,7 @@ aside {
     text-align: center;
 }
 
-aside image {
+aside img {
     width: 200px;
     height: auto;
 }
@@ -52,6 +55,6 @@ aside image {
 footer {
     margin-top: 10px;
     border-top: 10px;
-    text-align: center solid #000;
+    text-align: center;
 }
 
