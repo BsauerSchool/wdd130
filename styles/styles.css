@@ -34,7 +34,7 @@ main img {
     height: auto;
     border: 2px;
     padding: 10px;
-    box-shadow: 2px;
+    box-shadow: 0 0 30px gray ;
 }
 
 aside {
