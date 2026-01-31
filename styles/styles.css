@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: roboto, arial, sans-serif;
+}
+
 :root {
     --normal-color: gray;
 }
@@ -29,9 +40,9 @@ p {
     padding: 0;
 }
 
-/* main {
+main {
     max-width: 840px;
-} */
+}
 
 main img {
     width: 150px;
@@ -39,15 +50,16 @@ main img {
     border: 2px;
     padding: 2px;
     box-shadow: 0 0 30px var(--normal-color);
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+p {
+    margin: 1rem;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid var(--normal-color);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
 }
 
@@ -56,8 +68,26 @@ aside img {
     height: auto;
 }
 
+aside h2 {
+    position: absolute;
+
+}
+
 footer {
     margin-top: 15px;
     border-top: 10px solid #000;
     text-align: center;
+}
+
+/* Class Selectors*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
