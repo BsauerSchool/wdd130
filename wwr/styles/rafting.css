@@ -4,7 +4,7 @@
     --accent2-color: blue;
     --heading-font: "Times New Roman", "Georgia", sans-serif;
     --primary-color: green;
-    --secondary-color: #f4a261;
+    /*--secondary-color: #f4a261;*/
 }
 
 * {
@@ -67,7 +67,7 @@ article {
 
 .hero,
 h1 {
-    position: aboslute;
+    position: absolute;
 }
 
 .hero,
