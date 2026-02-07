@@ -1,0 +1,14 @@
+grid-column-start: 3
+- will start in the third column.
+
+grid-column-end: 5
+- will end the column at the 5th column, allowing you to have a longer column.
+- giving this property a negative number will start counting on the oposite end. (left to right)
+
+grid-column: 4/6;
+- shorthand for grid-column-start and grid-column-end
+
+grid-template-columns: 1fr 1fr 1fr 1fr
+-shorthand - repeate(5,1fr)
+
+
