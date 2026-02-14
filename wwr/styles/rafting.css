@@ -1,9 +1,9 @@
 :root {
     --body-font: Arial, Helvetica, sans-serif;
     --accent1-color: black;
-    --accent2-color: aqua;
+    --accent2-color: rgb(36, 129, 129);
     --heading-font: "Times New Roman", "Georgia", sans-serif;
-    --primary-color: green;
+    --primary-color: rgb(23, 143, 23);
     /*--secondary-color: #f4a261;*/
 }
 
@@ -23,10 +23,11 @@ header {
     font-family: var(--heading-font);
 }
 
-header nav {
+nav {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    background-color: var(--accent2-color)
 }
 
 nav a {
@@ -71,8 +72,6 @@ article {
 section {
     display: grid;
     grid-template-rows: 1fr 1fr;
-
-    /* float: clear; */
     position: relative;
 }
 
@@ -109,7 +108,6 @@ iframe {
 
 .hero {
     position: relative;
-    /* display: grid; */
 }
 
 .hero img {
@@ -119,7 +117,7 @@ iframe {
 }
 
 .hero article img {
-    /* float: right; */
+    float: right;
     width: 125px;
 }
 
@@ -142,16 +140,6 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent2-color);
     color: #fff;
-}
-
-.hero article img {
-    /* float: right; */
-    width: 125px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-
 }
 
 .adventure {
