@@ -1,9 +1,9 @@
 :root {
     --body-font: Arial, Helvetica, sans-serif;
     --accent1-color: black;
-    --accent2-color: rgb(36, 129, 129);
+    --accent2-color: rgb(62, 134, 134);
     --heading-font: "Times New Roman", "Georgia", sans-serif;
-    --primary-color: rgb(23, 143, 23);
+    --primary-color: rgb(14, 99, 14);
     --secondary-color: red;
 }
 
@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(24, 96, 114);
+    background-color: rgb(61, 92, 100);
 
 }
 
