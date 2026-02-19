@@ -4,14 +4,15 @@
     --accent2-color: rgb(36, 129, 129);
     --heading-font: "Times New Roman", "Georgia", sans-serif;
     --primary-color: rgb(23, 143, 23);
-    /*--secondary-color: #f4a261;*/
+    --secondary-color: red;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightgray;
+    background-color: rgb(24, 96, 114);
+
 }
 
 header {
@@ -27,7 +28,10 @@ nav {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    background-color: var(--accent2-color)
+    font-size: 20px;
+    color: black;
+    background-color: var(--accent2-color);
+
 }
 
 nav a {
@@ -42,10 +46,6 @@ body {
 
 }
 
-footer {
-    display: grid;
-}
-
 header,
 main,
 footer {
@@ -58,7 +58,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 nav,
@@ -69,9 +69,69 @@ article {
     padding: 8px;
 }
 
+article {
+    position: absolute;
+    max-width: auto;
+    max-height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: #fff;
+}
+
+p {
+    position: relative;
+}
+
 section {
+    position: relative;
+}
+
+form {
+    background-color: lightgray;
+}
+
+input,
+label,
+textarea,
+button {
+    background-color: darkgray;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+
+}
+
+.hero h1 article {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.adventure {
+    position: relative;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2 {
     position: relative;
 }
 
@@ -106,55 +166,24 @@ iframe {
     max-width: 100px;
 }
 
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-}
-
-.hero,
-h1 {
-    position: absolute;
-}
-
-.hero,
-article {
-    position: absolute;
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent2-color);
-    color: #fff;
-}
-
-.adventure {
-    display: grid;
-}
-
 .adventure figure img {
     max-width: 250px;
 }
 
 .address {
     text-align: center;
+    Position: relative;
+}
+
+.contact {
+    position: relative;
 }
 
 .main_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    display: grid;
 }
